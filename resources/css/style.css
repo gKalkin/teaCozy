@@ -1,7 +1,6 @@
 * {
   margin: 0;
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   text-align: center;
@@ -9,6 +8,8 @@
 
 body {
   justify-content: center;
+  text-align: center;
+  font-size: 22px;
 }
 
 .header {
@@ -62,5 +63,14 @@ a {
 #mission {
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
-  width auto;
+  width: auto;
+}
+
+#mission .content {
+  margin: auto;
+  width: 100%;
+}
+
+#featured .title {
+  padding-top: 100px;
 }
