@@ -1,10 +1,14 @@
-body {
+* {
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   text-align: center;
+}
+
+body {
+  justify-content: center;
 }
 
 .header {
@@ -40,4 +44,23 @@ body {
 
 a {
   color: seashell;
+}
+
+.main {
+  background-color: white;
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width auto;
 }
